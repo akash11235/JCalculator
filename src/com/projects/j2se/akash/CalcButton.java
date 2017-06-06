@@ -5,7 +5,12 @@ public class CalcButton extends JButton
     public CalcButton()
     {
       super();
+      
      }
- }
+    public CalcButton(String label)
+    {
+      super(label);
+     }
+}
 
 
